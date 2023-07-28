@@ -1,0 +1,11 @@
+.applink {
+  color: var(--inverted-primary-color);
+  font: var(--font-m-prim);
+  font-weight: 400;
+  text-decoration: none;
+
+  &:hover {
+    box-shadow: 0 0 10 5px var(--inverted-primary-color);
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,20 @@
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 120px;
+  min-width: 100vw;
+  margin-bottom: var(--header-heigth);
+
+  @media (max-width: 1399px) {
+    padding: 0 24px;
+  }
+
+  // не понятно как должно быть на десктопе в скринах <1440
+  @media (max-width: 1200px) {
+    padding: 0;
+  }
+
+  @media (max-width: 834px) {
+    padding: 0 24px;
+  }
+}

@@ -1,0 +1,47 @@
+.inputCounter {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 71px;
+  height: 51px;
+  border-radius: 6px;
+  background: var(--secondary-bg-color);
+  position: relative;
+}
+
+.value {
+  font: var(--font-s-sec);
+  font-weight: 600;
+  display: flex;
+  width: 47px;
+  height: 27px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 9px;
+  right: 14px;
+}
+
+.button {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.invertedStroke {
+  transform: rotate(180deg);
+}

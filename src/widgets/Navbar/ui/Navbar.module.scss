@@ -1,0 +1,18 @@
+.navbar {
+  height: var(--header-heigth);
+  background-color: var(--primary-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.headerTitle {
+  color: var(--inverted-primary-color);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}

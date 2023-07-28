@@ -1,0 +1,36 @@
+.button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.outlined {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.filled {
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  color: var(--inverted-primary-color);
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.m {
+  font: var(--font-s-prim);
+  font-weight: 400;
+  width: 200px;
+  height: 37px;
+  border-radius: 50px;
+}
+
+.l {
+  font: var(--font-m-prim);
+  width: 290px;
+  height: 41px;
+  border-radius: 20px;
+}

@@ -1,0 +1,38 @@
+:root {
+  --font-family-primary: "Montserrat", sans-serif;
+  --font-family-secondary: "Poppins", sans-serif;
+
+  // Montserrat
+  --font-size-s-prim: 14px;
+  --font-line-s-prim: 17px;
+  --font-s-prim: var(--font-size-s-prim) / var(--font-line-s-prim) var(--font-family-primary);
+  --font-size-m-prim: 16px;
+  --font-line-m-prim: 20px;
+  --font-m-prim: var(--font-size-m-prim) / var(--font-line-m-prim) var(--font-family-primary);
+  --font-size-l-prim: 24px;
+  --font-line-l-prim: normal;
+  --font-l-prim: var(--font-size-l-prim) / var(--font-line-l-prim) var(--font-family-primary);
+  --font-size-xl-prim: 36px;
+  --font-line-xl-prim: normal;
+  --font-xl-prim: var(--font-size-xl-prim) / var(--font-line-xl-prim) var(--font-family-primary);
+
+  // Poppins
+  --font-size-s-sec: 14px;
+  --font-line-s-sec: 17px;
+  --font-s-sec: var(--font-size-s-sec) / var(--font-line-s-sec) var(--font-family-secondary);
+
+  // Размеры
+  --header-heigth: 76px;
+
+  // Отступы
+  --desktop-content-margin: 240px;
+
+  // Цвета
+  --primary-color: rgba(0, 0, 0, 1);
+  --inverted-primary-color: rgba(255, 255, 255, 1);
+  --secondary-color: rgba(136, 136, 136, 1);
+  --accent-color: rgba(196, 196, 196, 1);
+  --common-border-color: rgba(202, 205, 216, 1);
+  --primary-bg-color: rgba(204, 204, 204, 1);
+  --secondary-bg-color: rgba(247, 246, 246, 1);
+}

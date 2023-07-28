@@ -1,0 +1,18 @@
+.select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 288px;
+  height: 38px;
+  border: 1px solid var(--accent-color);
+  border-radius: 20px;
+  cursor: pointer;
+  background: #fff
+    url("data:image/svg+xml,<svg height='9px' width='18px' viewBox='0 0 18 9' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M9 8.09753L0.339745 0.45119L17.6603 0.451192L9 8.09753Z' fill='black'/></svg>")
+    no-repeat calc(100% - 15px) center;
+  padding: 0 14px;
+  color: var(--primary-color);
+  font: var(--font-m-prim);
+  font-weight: 400;
+  outline: none;
+}

@@ -1,0 +1,12 @@
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 379px);
+  justify-content: space-between;
+  grid-auto-flow: row;
+  row-gap: 51px;
+
+  @media (max-width: 835px) {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+}
