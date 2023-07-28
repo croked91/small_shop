@@ -9,9 +9,11 @@ export const AppRoutes = {
 
 export type AppRoutesT = typeof AppRoutes[keyof typeof AppRoutes];
 
+const base = import.meta.env.DEV ? '/' : '/small_shop/';
+
 export const RoutePath: Record<AppRoutesT, string> = {
-  [AppRoutes.MAIN]: '/small_shop/',
-  [AppRoutes.CART]: '/small_shop/cart'
+  [AppRoutes.MAIN]: base,
+  [AppRoutes.CART]: `${base}cart`
 };
 
 export const routeConfig: Record<AppRoutesT, RouteProps> = {
