@@ -8,6 +8,5 @@ export default defineConfig({
     react(),
     svgr(),
     tsconfigPaths()
-  ],
-  base: import.meta.env.DEV ? '/' : 'small_shop'
+  ]
 });
