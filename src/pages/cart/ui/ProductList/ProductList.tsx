@@ -1,3 +1,4 @@
+import { RoutePath } from 'app/providers/RouteProvider/routeConfig/routeConfig';
 import { useStoreMap, useUnit } from 'effector-react';
 import { $cart } from 'entity/cart';
 import { cleanCart } from 'features/cleanCart';
@@ -34,7 +35,7 @@ export const ProductList = memo(() => {
 
   const onCleanCart = useUnit(cleanCart);
   const onContinueShopping = () => {
-    navigate('/');
+    navigate(RoutePath.main);
   };
 
   if (!mappedCartItemCards.length) {
