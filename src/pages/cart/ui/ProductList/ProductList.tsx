@@ -37,6 +37,10 @@ export const ProductList = memo(() => {
     navigate('/');
   };
 
+  if (!mappedCartItemCards.length) {
+    return null;
+  }
+
   return (
     <div className={cls.productList}>
       <div className={cls.head}>

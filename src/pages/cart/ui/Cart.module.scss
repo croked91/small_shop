@@ -1,7 +1,7 @@
 .cart {
   display: flex;
   align-items: start;
-  justify-content: space-between;
+  justify-content: end;
 
   @media (max-width: 835px) {
     flex-direction: column;
