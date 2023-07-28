@@ -6,7 +6,7 @@
   justify-content: space-between;
   margin-bottom: 32px;
 
-  @media (max-width: 390px) {
+  @media (max-width: 420px) {
     padding: 16px 32px 16px 19px;
     height: var(--mobile-header-heigth);
     align-items: end;
@@ -17,7 +17,7 @@
 .headerTitle {
   color: var(--inverted-primary-color);
 
-  @media (max-width: 390px) {
+  @media (max-width: 420px) {
     font: var(--font-ml-prim);
     font-weight: 600;
   }
@@ -28,7 +28,7 @@
   align-items: center;
   gap: 32px;
 
-  @media (max-width: 390px) {
+  @media (max-width: 420px) {
     display: none;
   }
 }
@@ -36,7 +36,7 @@
 .icons {
   display: none;
 
-  @media (max-width: 390px) {
+  @media (max-width: 420px) {
     display: flex;
     align-items: center;
     gap: 32px;
