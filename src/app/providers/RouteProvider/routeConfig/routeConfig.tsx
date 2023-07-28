@@ -10,8 +10,8 @@ export const AppRoutes = {
 export type AppRoutesT = typeof AppRoutes[keyof typeof AppRoutes];
 
 export const RoutePath: Record<AppRoutesT, string> = {
-  [AppRoutes.MAIN]: '/',
-  [AppRoutes.CART]: '/cart'
+  [AppRoutes.MAIN]: '/small_shop/',
+  [AppRoutes.CART]: '/small_shop/cart'
 };
 
 export const routeConfig: Record<AppRoutesT, RouteProps> = {
