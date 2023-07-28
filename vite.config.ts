@@ -9,5 +9,5 @@ export default defineConfig({
     svgr(),
     tsconfigPaths()
   ],
-  base: import.meta.env.DEV ? '/' : '/small_shop/'
+  base: import.meta.env.MODE === 'development' ? '/' : '/small_shop/'
 });
