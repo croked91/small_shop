@@ -26,6 +26,11 @@
   width: 200px;
   height: 37px;
   border-radius: 50px;
+
+  @media (max-width: 390px) {
+    font: var(--font-xs-prim);
+    width: 166px;
+  }
 }
 
 .l {

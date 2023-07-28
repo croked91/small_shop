@@ -57,6 +57,10 @@
   .img {
     width: 173px;
     height: 173px;
+
+    @media (max-width: 390px) {
+      display: none;
+    }
   }
 
   .productInfo {

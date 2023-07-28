@@ -6,6 +6,11 @@
   display: flex;
   padding-top: 42px;
   flex-direction: column;
+
+  @media (max-width: 390px) {
+    width: 343px;
+    align-self: center;
+  }
 }
 
 .title {

@@ -3,12 +3,18 @@
   --font-family-secondary: "Poppins", sans-serif;
 
   // Montserrat
+  --font-size-xs-prim: 12px;
+  --font-line-xs-prim: 15px;
+  --font-xs-prim: var(--font-size-xs-prim) / var(--font-line-xs-prim) var(--font-family-primary);
   --font-size-s-prim: 14px;
   --font-line-s-prim: 17px;
   --font-s-prim: var(--font-size-s-prim) / var(--font-line-s-prim) var(--font-family-primary);
   --font-size-m-prim: 16px;
   --font-line-m-prim: 20px;
   --font-m-prim: var(--font-size-m-prim) / var(--font-line-m-prim) var(--font-family-primary);
+  --font-size-ml-prim: 18px;
+  --font-line-ml-prim: 22px;
+  --font-ml-prim: var(--font-size-ml-prim) / var(--font-line-ml-prim) var(--font-family-primary);
   --font-size-l-prim: 24px;
   --font-line-l-prim: normal;
   --font-l-prim: var(--font-size-l-prim) / var(--font-line-l-prim) var(--font-family-primary);
@@ -23,6 +29,7 @@
 
   // Размеры
   --header-heigth: 76px;
+  --mobile-header-heigth: 89px;
 
   // Отступы
   --desktop-content-margin: 240px;

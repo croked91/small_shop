@@ -13,6 +13,10 @@
   justify-content: space-between;
   margin-bottom: 14px;
   padding-right: 27px;
+
+  @media (max-width: 390px) {
+    display: none;
+  }
 }
 
 .cartItems {
@@ -21,10 +25,22 @@
   align-items: start;
   gap: 32px;
   margin-bottom: 50px;
+
+  @media (max-width: 390px) {
+    padding: 0 16px;
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 .footer {
   display: flex;
   align-items: center;
   gap: 7px;
+
+  @media (max-width: 390px) {
+    gap: 14px;
+    width: 100%;
+    justify-content: center;
+  }
 }

@@ -28,7 +28,7 @@
   },
   "include": [
     "src",
-    "./src/app/types/global.d.ts",
+    "./src/app/types/vite-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "**/**/*.ts",
